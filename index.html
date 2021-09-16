@@ -63,12 +63,15 @@
             <div class="br"></div>
             <div class="form">
                 <form>
-                    <label for="decimal">Enter your number</label>
+                    <label id="heading" for="decimal">Enter your number</label>
                     <input type="text" id="decimal" name="decimal">
-                    <input type="button" id="convert" value="convert">
+                    <div class="button_coantainer">
+                        <input class="button" type="button" id="reverse" value="Reverse">                        
+                        <input class="button" type="button" id="convert" value="Convert">
+                        <input class="button" type="button" id="reset" value="Reset">
+                    </div>
                     <label for="roman">Result</label>
                     <input type="text" id="roman" name="roman">
-                    <input type="button" id="reset" value="Reset">
                 </form>
             </div>
         </div>
@@ -109,5 +112,6 @@
         &copy noobCreates.org
     </footer>
     <script src="script.js"></script>
+    <script src="swap.js"></script>
 </body>
 </html>

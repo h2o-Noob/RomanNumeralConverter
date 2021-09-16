@@ -48,6 +48,23 @@ form label
     margin-top: 10px
 }
 
+
+.main
+{
+    display: flex;
+}
+
+.button_coantainer
+{
+    display: flex;
+}
+
+.button
+{
+    margin: 0px 20px;
+}
+
+
 form input
 {
     margin-top: 5px;
